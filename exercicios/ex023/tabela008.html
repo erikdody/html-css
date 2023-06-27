@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;  
+            }
+
+            table {
+                width: 500px;
+                border-collapse: collapse;   
+                margin: auto;      
+            }
+
+            thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(4, 23, 105);
+            color: white;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: aqu;
+        }
+
+            tr, td {
+                border: 1px solid black;
+                padding: 10px;
+                text-align: left;
+                font-weight: bolder;
+            }
+
+            th {
+                text-align: center;
+                position: sticky;
+                padding: 10px;
+            }
+
+            td.idade {
+                text-align: center;
+                width: 50px;
+                background-color: rgb(242, 230, 12);
+            }
+
+
+            td#money {
+                text-align: center;
+            }
+            
+            td.money1 {
+                background-color: rgba(6, 255, 6, 0.73);
+                color: white;
+                text-shadow: 2px 2px 1.5px rgba(0, 0, 0, 0.711);
+                font-weight: bold;
+            }
+
+            td.money2 {
+                background-color: rgb(1, 163, 1);
+                color: white;
+                text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.537);
+                font-weight: bold;
+            }
+
+            td.money3 {
+                background-color: rgb(0, 112, 0);
+                color: white;
+                text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.537);
+                font-weight: bold;
+            }
+
+            td.money4 {
+                background-color: rgb(0, 68, 0);
+                color: white;
+                font-weight: bolder;
+                text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.537);
+            }
+
+            td.pais {
+                text-align: center;
+            }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Patrimônio</th>
+                <th>Onde quer morar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Erik</td>
+                <td class="idade">20</td>
+                <td class="money1" id="money">R$ 1.250.345.400</td>
+                <td class="pais" id="pais1"><img style="max-width:80px;
+                    max-height: 50px;" src="https://img.freepik.com/vetores-gratis/ilustracao-de-bandeira-eua_53876-18165.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td>Tauany</td>
+                <td class="idade">21</td>
+                <td class="money2" id="money">R$ 2.100.345.560</td>
+                <td class="pais"><img style="max-width:80px;
+                    max-height: 50px;" src="https://img.freepik.com/vetores-gratis/ilustracao-de-bandeira-noruega_53876-27115.jpg"></td>
+            </tr>
+            <tr>
+                <td>Fabiana</td>
+                <td class="idade">38</td>
+                <td class="money4" id="money">R$ 6.800.145.940</td>
+                <td class="pais"><img style="max-width:80px;
+                    max-height: 50px;" src="https://www.holandaevoce.nl/binaries/medium/content/gallery/nl-netherlandsandyou/content-afbeeldingen/vlag-nederland.png"></td>
+            </tr>
+            <tr>
+                <td>Sérgio</td>
+                <td class="idade">52</td>
+                <td class="money3" id="money">R$ 4.126.678.268</td>
+                <td class="pais"><img style="max-width:80px;
+                    max-height: 50px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/255px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div style="position: absolute; top: 500px;">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quia cum quasi? Fuga error aperiam aspernatur architecto. Fuga culpa quo sit itaque neque nobis amet illum, vel ipsam aliquam eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione fugit officiis dolore quidem qui ipsam quia eligendi est voluptates? Possimus autem necessitatibus tenetur provident esse. Deleniti consectetur ducimus quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officia repellat quas est eligendi doloribus laborum similique consequatur suscipit rerum itaque animi modi, assumenda quo non quaerat ut, illum facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, delectus amet inventore quidem facere earum maxime quas sequi iusto! Nemo quis iusto minus quos numquam provident distinctio exercitationem, expedita a.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quia cum quasi? Fuga error aperiam aspernatur architecto. Fuga culpa quo sit itaque neque nobis amet illum, vel ipsam aliquam eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione fugit officiis dolore quidem qui ipsam quia eligendi est voluptates? Possimus autem necessitatibus tenetur provident esse. Deleniti consectetur ducimus quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officia repellat quas est eligendi doloribus laborum similique consequatur suscipit rerum itaque animi modi, assumenda quo non quaerat ut, illum facilis. Lorem ipsum dolor sit ame</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quia cum quasi? Fuga error aperiam aspernatur architecto. Fuga culpa quo sit itaque neque nobis amet illum, vel ipsam aliquam eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione fugit officiis dolore quidem qui ipsam quia eligendi est voluptates? Possimus autem necessitatibus tenetur provident esse. Deleniti consectetur ducimus quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officia repellat quas est eligendi doloribus laborum similique consequatur suscipit rerum itaque animi modi, assumenda quo non quaerat ut, illum facilis. Lorem ipsum dolor sit ame</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quia cum quasi? Fuga error aperiam aspernatur architecto. Fuga culpa quo sit itaque neque nobis amet illum, vel ipsam aliquam eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione fugit officiis dolore quidem qui ipsam quia eligendi est voluptates? Possimus autem necessitatibus tenetur provident esse. Deleniti consectetur ducimus quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officia repellat quas est eligendi doloribus laborum similique consequatur suscipit rerum itaque animi modi, assumenda quo non quaerat ut, illum facilis. Lorem ipsum dolor sit ame</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quia cum quasi? Fuga error aperiam aspernatur architecto. Fuga culpa quo sit itaque neque nobis amet illum, vel ipsam aliquam eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione fugit officiis dolore quidem qui ipsam quia eligendi est voluptates? Possimus autem necessitatibus tenetur provident esse. Deleniti consectetur ducimus quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officia repellat quas est eligendi doloribus laborum similique consequatur suscipit rerum itaque animi modi, assumenda quo non quaerat ut, illum facilis. Lorem ipsum dolor sit ame</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quia cum quasi? Fuga error aperiam aspernatur architecto. Fuga culpa quo sit itaque neque nobis amet illum, vel ipsam aliquam eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione fugit officiis dolore quidem qui ipsam quia eligendi est voluptates? Possimus autem necessitatibus tenetur provident esse. Deleniti consectetur ducimus quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officia repellat quas est eligendi doloribus laborum similique consequatur suscipit rerum itaque animi modi, assumenda quo non quaerat ut, illum facilis. Lorem ipsum dolor sit ame</p>
+    </div>
+</body>
+</html>
