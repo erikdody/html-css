@@ -41,19 +41,19 @@
     <table>
         <thead>
             <tr>
-                <th rowspan="2" colspan="2">Área</th>
-                <th rowspan="2" colspan="2">Disciplinas</th>
-                <th colspan="2">Notas</th>
-                <th rowspan="2">Média</th>
+                <th scope="col" rowspan="2" colspan="2">Área</th>
+                <th scope="col" rowspan="2" colspan="2">Disciplinas</th>
+                <th scope="colgroup" colspan="2">Notas</th>
+                <th scope="col" rowspan="2">Média</th>
                 <tr>
-                    <th>Nota 1</th>
-                    <th>Nota 2</th>
+                    <th scope="col">Nota 1</th>
+                    <th scope="col">Nota 2</th>
                 </tr>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="4" colspan="2">Exatas</th>
+                <th scope="rowgroup" rowspan="4" colspan="2">Exatas</th>
                 <td colspan="2">Matemática</td>
                 <td class="zero">0.0</td>
                 <td class="zero">0.0</td>
@@ -78,11 +78,11 @@
                 <td class="zero">0.0</td>
             </tr>
             <tr>
-                <th colspan="6" class="media">Média de Exatas</th>
+                <th scope="row" colspan="6" class="media">Média de Exatas</th>
                 <td class="zero-media">0.0</td>
             </tr>
             <tr>
-                <th colspan="3" rowspan="2">Humanas</th>
+                <th scope="rowgroup" colspan="3" rowspan="2">Humanas</th>
                 <td>História</td>
                 <td class="zero">0.0</td>
                 <td class="zero">0.0</td>
@@ -95,7 +95,7 @@
                 </tr>
             </tr>
             <tr>
-                <th colspan="6" class="media">Média de Humanas</th>
+                <th scope="row" colspan="6" class="media">Média de Humanas</th>
                 <td class="zero-media">0.0</td>
             </tr>
         </tbody>
