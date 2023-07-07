@@ -19,7 +19,7 @@ header > h1 {
     text-align: center;
 }
 
-span#burger {
+i#burguer {
     background-color: rgb(49, 49, 49);
     display: block;
     color: white;
@@ -28,13 +28,13 @@ span#burger {
     cursor: pointer;
 }
 
-span#burger:hover {
+i#burguer:hover {
     background-color: white;
     color: black;
 }
 
 menu {
-    display: block;
+    display: none;
 }
 
 menu > ul {
