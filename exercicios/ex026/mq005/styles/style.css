@@ -34,7 +34,7 @@ span#burger:hover {
 }
 
 menu {
-    display: none;
+    display: block;
 }
 
 menu > ul {
